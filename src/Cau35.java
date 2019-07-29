@@ -7,5 +7,14 @@ public class Cau35 {
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
 
+        int date = scanner.nextInt();
+        int month = scanner.nextInt();
+        int year = scanner.nextInt();
+
+
+
+        System.out.println(name + " tuoi " + (2019 - year));
+
+
     }
 }
